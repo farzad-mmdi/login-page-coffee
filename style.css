@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=:wght@300;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    background-image: url(images/bag_of_coffee_beans_and_coffee-1440x900.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.avatar {
+    border-radius: 200px;
+    width: 100px;
+    transform: translate(110px,-50px);
+    margin-bottom: -60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.center form {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.center {
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+.center p {
+    margin: 0;
+    padding: 0;
+}
+
+.center input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.center input[type=text] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.center input[type="submit"] {
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.center input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.center a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.center a:hover {
+    color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
